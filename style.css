@@ -1,0 +1,194 @@
+*{
+ margin: 0px;
+padding: 0px;
+}
+/* header side stat */
+
+body{
+    background-color:#e5d3d3;
+    font-family: 'Poppins', sans-serif;
+
+}
+.first-hr{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.header{
+    background-color: #1D1CE5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    display: flex;   
+}
+.nave-title{
+    font-size: 35px;
+    padding-left:5px;
+}
+.left-side{
+    margin: 0 auto;
+   display: flex;
+ 
+}
+.nav-bar{
+    width: 50%;
+    padding-top: 10px; 
+   
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    
+}
+.nav-bar li a{
+    text-decoration: none;
+    color: white;
+   
+}
+.nav-bar ul li{
+    font-size: 15px;
+    margin-left: 20px;
+    padding-left: 36px;
+}
+.profile-picture{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.list-item{
+    padding-top: 12px;
+}
+.logo{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+   
+}
+
+/* header side end */
+
+/* main-body start */
+
+.main-body{
+
+background-color: white;
+margin: 0 auto;
+width: 60%;
+padding:20px 20px ;
+margin-top: 20px;
+
+}
+.top-player h2{
+    color: #562eff;
+}
+.single-pic{
+    display: flex;
+  
+}
+.single-pic h3{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.all-picture{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:repeat(3, 4fr);
+    grid-gap: 10px;
+  
+}
+.single-pic img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+   
+}
+/* blogs start */
+.single-blog{
+    display: flex;
+}
+.blogs{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,6fr);
+    grid-gap: 20px;
+    margin-left: 20px;
+}
+.single-blog img{
+width: 100px;
+height: 100px;
+border-radius: 10px;
+}
+.blog-desc{
+    width: 200px;
+    margin-left: 20px;
+}
+.blog-desc p{
+    color: #562eff;
+}
+.blog-title{
+    color: #562eff;
+    margin-top: 5px;
+}
+.by-title{
+    color: gray;
+}
+
+
+
+/* blogs end */
+/* latest-course start */
+.latest-course{
+margin-top: 30px;
+}
+
+.all-courses{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+    grid-gap: 20px;
+}
+.single-course img{
+    width: 100%;
+    border-radius: 15px;
+}
+.single-course p{
+color: red;
+}
+.rating-duration{
+    display: flex;
+   margin-top: 10px;
+}
+.rating{
+    margin-right: 10px;
+}
+.icon-cus{
+    color: yellow;
+}
+.duration{
+    background-color: pink;
+     padding: 2px 2px;
+    border-radius: 5px;
+    color: rgb(244, 227, 230);
+}
+
+
+
+
+
+/* latest-course end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main-body end */
